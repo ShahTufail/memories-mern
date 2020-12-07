@@ -16,7 +16,7 @@ const App = () => {
         // return () => {
         //     cleanup
         // }
-    }, [])
+    }, []) // useEffect will work as LC Hook componentDidMount on first render
 
     return (
         <Container maxWidth='lg'>
